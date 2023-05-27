@@ -3,7 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: -box;
 }
 
 body {
@@ -71,6 +71,8 @@ ul{
 }
 
 .header {
+    display: flex;
+    align-items: center;
     background-color: #0a51cc;
     color: white;
     min-height: 400px;
@@ -84,6 +86,7 @@ ul{
 
 .header img{
     max-width: 400px;
+    margin-left: 16px;
 }
 
 .header .container {
@@ -116,6 +119,9 @@ ul{
         flex-direction: column;
         padding-top: 20px;
         text-align: center;
+    }
+    .container img {
+        margin: 20px 0px;
     }
 
     .boxes .container{
